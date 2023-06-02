@@ -14,10 +14,10 @@ public class App {
 		WebDriver driver=new EdgeDriver();
 		driver.get("https://demo.opencart.com/index.php?route=account/register&language=en-gb");
         driver.manage().window().maximize();
-        driver.findElement(By.xpath("//*[@id=\"input-firstname\"]")).sendKeys("Subiksha");
-        driver.findElement(By.xpath("//*[@id=\"input-lastname\"]")).sendKeys("Sundaram");
-        driver.findElement(By.xpath("//*[@id=\"input-email\"]")).sendKeys("subikshasundaram@gmail.com");
-        driver.findElement(By.xpath("//*[@id=\"input-password\"]")).sendKeys("subikeerthi");
+        driver.findElement(By.xpath("//*[@id=\"input-firstname\"]")).sendKeys("HARIPRASATH");
+        driver.findElement(By.xpath("//*[@id=\"input-lastname\"]")).sendKeys("S");
+        driver.findElement(By.xpath("//*[@id=\"input-email\"]")).sendKeys("hari.com");
+        driver.findElement(By.xpath("//*[@id=\"input-password\"]")).sendKeys("30062003");
         JavascriptExecutor js= (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,12500)","");
         driver.findElement(By.xpath("//*[@id=\"input-newsletter-yes\"]")).click();
